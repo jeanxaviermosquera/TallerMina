@@ -44,7 +44,7 @@ public class RegistroJornada {
                }
 
                 case 2 -> {
-                    // Ingresar novedad
+                    // Ingresa novedad
                     System.out.println("Seleccione la novedad:");
                     System.out.println("1. Licencia");
                     System.out.println("2. Incapacidad");
@@ -54,7 +54,7 @@ public class RegistroJornada {
 
                     switch (novedad) {
                         case 1 -> {
-                            // Licencia
+                            // Tipo de licencia
                             System.out.println("Seleccione el tipo de licencia:");
                             System.out.println("1. Temporal");
                             System.out.println("2. Maternidad");
@@ -92,7 +92,7 @@ public class RegistroJornada {
                                     int diasPaternidad = scanner.nextInt();
 
                                     if (diasPaternidad >= 1 && diasPaternidad <= 15) {
-                                        // Procesar licencia por paternidad
+                                        // Procesa licencia por paternidad
                                     } else {
                                         System.out.println("Alerta: No puedes tomar más de 15 días de licencia por paternidad.");
                                     }
@@ -107,7 +107,7 @@ public class RegistroJornada {
                             int diasIncapacidad = scanner.nextInt();
 
                             if (diasIncapacidad >= 1 && diasIncapacidad <= 20) {
-                                // Procesar incapacidad
+                                // Procesa incapacidad
                             } else {
                                 System.out.println("Alerta: No puedes tomar más de 20 días de incapacidad.");
                             }
@@ -119,7 +119,7 @@ public class RegistroJornada {
                             int diasVacaciones = scanner.nextInt();
 
                             if (diasVacaciones >= 1 && diasVacaciones <= 15) {
-                                // Procesar vacaciones
+                                // Procesa vacaciones
                             } else {
                                 System.out.println("Alerta: No puedes tomar más de 15 días de vacaciones.");
                             }
@@ -152,9 +152,6 @@ public class RegistroJornada {
     }
 
     public static int calcularHoras(String horaInicio, String horaFinalizacion) {
-        // Implementa la lógica para calcular las horas entre la hora de inicio y finalización
-        // y devuelve el número de horas.
-        // Este es solo un esqueleto, debes implementar la lógica real.
         return 0;
     }
 }
